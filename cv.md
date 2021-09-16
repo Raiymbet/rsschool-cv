@@ -1,4 +1,5 @@
 # Tukpetov Raiymbet Zhumanoruly
+![Tukpetov Raiymbet Zhumanoruly](/assets/images/1631770078462.jpg)
 ## Junior Fullstack Developer
 
 ### Contacts:
@@ -75,20 +76,19 @@ const _isBST = node => {
 ```
 
 ### 3. Experience: 
-* I started my career since 09.2015 to 07.2016 at the university from the position - IT Support at SDU, Almaty. My responibilities included maintaining of computers and networks at university. Also was redesigned the website https://infomatrix.asia, developed on the framework codeigniter v2.0. I was added and fixed functionalities like: registration, authorithation, team registration, evaluation team projects, viewing the results... 
-Also I was developed the information portal aqparat.kz for faculty of journalists, used framework Laravel v4.2. Briefly about the functionality, in portal has published news articles by journalists, with the ability to administer by moderators. Source code: https://github.com/Raiymbet/aqparat.kz
-Also was developed project by team for rapid online testing like Kahoot. Used technologies JavaScript, PHP and MySQL. Source code: https://github.com/Raiymbet/gamification-sdu-en3-04
+* I started my career since 09.2015 to 07.2016 at the university from the position - IT Support at SDU, Almaty. My responibilities included maintaining of computers and networks at university. Also was redesigned the website <https://infomatrix.asia>, developed on the framework codeigniter v2.0. I was added and fixed functionalities like: registration, authorithation, team registration, evaluation team projects, viewing the results... 
+Also I was developed the information portal aqparat.kz for faculty of journalists, used framework Laravel v4.2. Briefly about the functionality, in portal has published news articles by journalists, with the ability to administer by moderators. Source code: <https://github.com/Raiymbet/aqparat.kz>.
+Also was developed project by team for rapid online testing like Kahoot. Used technologies JavaScript, PHP and MySQL. Source code: <https://github.com/Raiymbet/gamification-sdu-en3-04>.
 
 * RaarLabs, Full Stack Developer, since 02.2018 - 08.2018.
-There were developed online stores on CMS MODxRe with functionalities publishing by moderators and ordering by clients. almatuning.kz - online store for car tuning. almatexltd.kz - online store of socks. astana-spk.kz - information website. Landing page for passacademy of language school, source code: https://github.com/Raiymbet/passacademy
-Used technologies: MySQL, JavaScript, JQuery, Ajax, HTML, CSS, PHP.
+There were developed online stores on CMS MODxRe with functionalities publishing by moderators and ordering by clients. almatuning.kz - online store for car tuning. almatexltd.kz - online store of socks. astana-spk.kz - information website. Landing page for passacademy of language school, source code: <https://github.com/Raiymbet/passacademy>. Used technologies: MySQL, JavaScript, JQuery, Ajax, HTML, CSS, PHP.
 
 * IDET, Frontend Developer, since 09.2018 - 12.2020.
 Worked on team and projects such as: gpn.idet.kz, portalbd.kz, portalmio.kz, admin.portalbd.kz - information and analytical portal. Used technologies: Angular from v4 to 12 (Modules, Model biding, Reactive Form, Gridster, 3d.js, Drawing SVG, Creating libraries), .NET, MS SQL (I don't have privilegies for publish source code).
-Was developed frontend for face recognition, car number recognition with real-time. Source code: https://bitbucket.org/rtukpetov/facerecognition/src/master/, https://bitbucket.org/rtukpetov/numberrecognition/src/master/
+Was developed frontend for face recognition, car number recognition with real-time. Source code: <https://bitbucket.org/rtukpetov/facerecognition/src/master/>, <https://bitbucket.org/rtukpetov/numberrecognition/src/master/>
 
 * TOO DevArt, Full Stack Developer, since 12.2020 - 07.2021
-There were modular developed of business process automation functionality. Was developed the portal for workflow and process analytics - https://devportal.ekpd.kz. Used technologies: DamuCRM, BPM Camunda, Lua script, HTML, CSS, angular.js, amchart.js (I don't have privilegies for publish source code).
+There were modular developed of business process automation functionality. Was developed the portal for workflow and process analytics - <https://devportal.ekpd.kz>. Used technologies: DamuCRM, BPM Camunda, Lua script, HTML, CSS, angular.js, amchart.js (I don't have privilegies for publish source code).
 
 ### 4. Education: 
 * Bachelor, university of Suleiman Demirel(SDU), Kazakhstan, Almaty.
