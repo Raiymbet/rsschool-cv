@@ -1,0 +1,260 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --main-color: #BB7A3B;
+    --main-second-color: #EBD7C4;
+    --heading-color: #242732;
+    --text-color: #4F4F4F;
+    --text-secondary: #828282;
+    --text-muted: #BDBDBD;
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 1rem;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+	line-height: 1;
+    color: var(--text-color);
+    min-height: 100vh;
+}
+.wallpaper {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/thumbnail.jpg');
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.container {
+    max-width: 1320px;
+    background-color: white;
+    padding: 40px;
+    margin: auto;
+}
+main {
+    display: flex;
+}
+.d-flex {
+    display: flex;
+}
+.d-flex-ac {
+    align-items: center;
+}
+.right_side {
+    flex: 1.8;
+    padding: 3em;
+}
+.left_side {
+    flex: 1;
+    padding: 3em;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+h2, h3 {
+    color: var(--heading-color);
+}
+.section-heading {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 10.5px;
+    line-height: 100%;
+}
+.heading-underline {
+    position: relative;
+    height: 9px;
+    width: 100%;
+    background-color: var(--main-second-color);
+    margin-bottom: 3em;
+}
+.heading-underline div {
+    position: absolute;
+    height: 9px;
+    width: 30%;
+    left: 0;
+    background-color: var(--main-color);
+}
+.icon {
+    width: 3.1em;
+    height: 3.1em;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 2px solid #B8B8B8;
+}
+.icon-phone {
+    background-image: url('../images/icons/bx_bxs-phone-call.svg');
+}
+.icon-email {
+    background-image: url('../images/icons/entypo_mail.svg');
+}
+.icon-location {
+    background-image: url('../images/icons/entypo_address.svg');
+}
+.icon-discord {
+    background-image: url('../images/icons/mdi_web.svg');
+}
+
+/* About */
+.brown-line {
+    width: 5em;
+    background-color: var(--main-color);
+}
+.profile-image {
+    width: 100%;
+    height: 25em;
+    background-image: url('../images/profile_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    margin-left: 4em;
+}
+h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: 16.5px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    margin-bottom: 1.5rem;
+}
+#about h1 {
+    margin-top: 7rem;
+}
+h2 {
+    font-size: 4rem;
+    line-height: 100%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+h4 {
+    font-size: 2rem;
+    line-height: 100%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+p {
+    line-height: 192%;
+    letter-spacing: 3px;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+/* Contacts */
+#contacts p {
+    margin: 0;
+    margin-left: 1em;  
+}
+#contacts div.d-flex {
+    margin-bottom: 1.3em;
+}
+
+/* Experience */
+.work-item {
+    margin-top: 2em;
+}
+.work-item .period, 
+.education-item .period {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    margin: 0;
+}
+.work-item .company, .level {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin: 0;
+}
+.work-item .position,
+.education-item .position {
+    font-size: 2rem;
+    color: var(--text-color);
+    margin: 0;
+}
+
+/* Education */
+.education-item .position {
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+/* Skills and Languages */
+.skills-list,
+.languages-list {
+    list-style: none;
+    letter-spacing: 1px;
+}
+.skills-list li,
+.languages-list li {
+    position: relative;
+    margin-bottom: 1rem;
+}
+.skills-list li p,
+.languages-list li p {
+    margin-left: 2rem;
+}
+
+.skills-list li::before ,
+.languages-list li::before {
+    /* content: "\25AA"; */
+    /* color: var(--main-color);  */
+    /* display: inline-block; */
+    content: "";
+    position: absolute;
+    top: .6em;
+    width: .8em;
+    height: .8em;
+    background-color: var(--main-second-color);
+    /* font-size: 1.5rem; */
+}
+/* Code-example */
+#code-example code {
+    display: flex;
+    white-space:pre-wrap;
+    background: var(--main-second-color);
+}
+#code-example, #code-example p {
+    margin-bottom: 0;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-second-color) !important;
+}
