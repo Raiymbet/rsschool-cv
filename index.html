@@ -205,17 +205,17 @@
 const isBST = node => {
     // Give the array of tree.
     let tree_arr = _isBST(node),
-        asc = tree_arr[0] &lt tree_arr[1],
+        asc = tree_arr[0] &lt; tree_arr[1],
         result = true;
     
-    for (let i = 0; i &lt tree_arr.length - 1; i++) {
+    for (let i = 0; i &lt; tree_arr.length - 1; i++) {
         if (asc) {
             if (tree_arr[i] > tree_arr[i+1]) {
                 result = false;
                 break;
             }
         } else {
-            if (tree_arr[i] &lt tree_arr[i+1]) {
+            if (tree_arr[i] &lt; tree_arr[i+1]) {
                 result = false;
                 break;
             }
